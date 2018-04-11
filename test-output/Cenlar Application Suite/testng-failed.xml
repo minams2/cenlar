@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cenlar Application Suite]">
+  <listeners>
+    <listener class-name="com.cenlar.qa.util.RetryTransformer"/>
+  </listeners>
+  <test name="Free Cenlar App Test Cases(failed)">
+    <classes>
+      <class name="com.cenlar.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyPageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cenlar.qa.testcases.HomePageTest -->
+      <class name="com.cenlar.qa.testcases.ContactUsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cenlar.qa.testcases.ContactUsPageTest -->
+      <class name="com.cenlar.qa.testcases.BusinessLoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cenlar.qa.testcases.BusinessLoginPageTest -->
+    </classes>
+  </test> <!-- Free Cenlar App Test Cases(failed) -->
+</suite> <!-- Failed suite [Cenlar Application Suite] -->
